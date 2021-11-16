@@ -96,6 +96,7 @@ if __name__ == '__main__':
     ax4.legend()
 
     # Graficar la figura con los 4 axes
+    fig.tight_layout()
     plt.show()
 
     print("terminamos")
